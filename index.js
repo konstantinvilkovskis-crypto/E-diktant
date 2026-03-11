@@ -6,8 +6,9 @@ buttonLogin.addEventListener('click', function() {
     let value = input.value 
 
     if (value === 'Teacher') {
-        window.location.href = ""
+        window.location.href = "https://konstantinvilkovskis-crypto.github.io/e-diktant-teacher-/"
     } else {
-        window.location.href = ""
+        window.location.href = "https://konstantinvilkovskis-crypto.github.io/E-diktant---student/"
     }
+
 })
