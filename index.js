@@ -4,7 +4,7 @@ let input = document.querySelector('.input')
 buttonLogin.addEventListener('click', function() {
    
     let value = input.value 
-
+   console.log("JS работает")
     if (value === 'Teacher') {
         window.location.href = "https://konstantinvilkovskis-crypto.github.io/e-diktant-teacher-/"
     } else {
@@ -12,3 +12,4 @@ buttonLogin.addEventListener('click', function() {
     }
 
 })
+
